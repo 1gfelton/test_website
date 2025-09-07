@@ -4,13 +4,43 @@
             "title": "Vision Transformer Based 2D to 3D Model",
             "description": "See a method for generating 3D meshes based on input sketches",
             "previewImage": "/img/triplanes.jpg"
+        },
+        {
+            "title": "Semantic Analysis with Natural Language Processing",
+            "description": "Simple machine learning model for learning word embeddings with a method for comparative analysis using cosine similarity to determine the bias of a manuscript.",
+            "previewImage": "/img/ihb.gif"
+        },
+        {
+            "title": "Python-Based 2.5D Raycast Dungeon Crawler",
+            "description": "A simple re-implementation of a raycasting algorithm for 2.5d rogue-like gameplay.",
+            "previewImage": "/img/anim.gif"
         }
     ],
     "design": [
         {
-            "title": "Airport",
-            "description": "airport...",
-            "previewImage": "/img/air1.jpg"
+            "title": "Bodega 2.0",
+            "description": "Re-mediation of the bodega as cultural repository.",
+            "previewImage": "/img/bodega_t.jpg"
+        },
+        {
+            "title": "Togethotel",
+            "description": "Mixed-Use short-term/long-term student housing project for Moab, Utah.",
+            "previewImage": "/img/togethotel_t.jpg"
+        },
+        {
+            "title": "Deep Mapping",
+            "description": "Inquiry-led, ethnographic exploration of the town of Moab, Utah.",
+            "previewImage": "/img/deep_t.jpg"
+        },
+        {
+            "title": "Inquiry into Topology Optimization",
+            "description": "An optimization-guided approach towards a structurally optimal skateboard truck prototype.",
+            "previewImage": "/img/HERO2.jpg"
+        },
+        {
+            "title": "Provo Regional Airport",
+            "description": "Computational Form-Finding and Digital Fabrication",
+            "previewImage": "/img/airport_t.jpg"
         }
     ]
 }
