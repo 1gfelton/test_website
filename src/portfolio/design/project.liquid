@@ -4,15 +4,19 @@ pagination:
   data: projects.design
   size: 1
   alias: project
-permalink: "/portfolio/design/{{ project.title | slugify }}/"
+permalink: "/portfolio/{{ project.title | slugify }}/"
 eleventyComputed:
   title: "{{ project.title }}"
 ---
 
 <div class="project-detail">
-    <img src="{{ project.previewImage }}" alt="{{ project.title }}" class="project-hero">
     <h1>{{ project.title }}</h1>
-    <p class="lead">{{ project.description }}</p>
+
+    {% if project.content %}
+        <div class="project-content">
+            {{ project.content }}
+        </div>
+    {% endif %}
     
     {% if project.images %}
         <div class="project-gallery">
@@ -22,11 +26,5 @@ eleventyComputed:
         </div>
     {% endif %}
     
-    {% if project.content %}
-        <div class="project-content">
-            {{ project.content }}
-        </div>
-    {% endif %}
-    
-    <a href="/portfolio/design/" class="back-link">← Back to Design Projects</a>
+    <a href="/portfolio/design/" class="back-link">Back</a>
 </div>

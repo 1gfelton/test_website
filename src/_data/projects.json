@@ -10,7 +10,7 @@
         },
         {
             "title": "Semantic Analysis with Natural Language Processing",
-            "description": "Simple machine learning model for learning word embeddings with a method for comparative analysis using cosine similarity to determine the bias of a manuscript.",
+            "description": "Using word embeddings and cosine similarity to identify bias in English writing",
             "previewImage": "/img/ihb.gif",
             "images": [
             ],
@@ -18,7 +18,7 @@
         },
         {
             "title": "Python-Based 2.5D Raycast Dungeon Crawler",
-            "description": "A simple re-implementation of a raycasting algorithm for 2.5d rogue-like gameplay.",
+            "description": "A simple re-implementation of a raycasting algorithm for 2.5d rogue-like gameplay",
             "previewImage": "/img/anim.gif",
             "images": [
             ],
@@ -28,38 +28,46 @@
     "design": [
         {
             "title": "Bodega 2.0",
-            "description": "Re-mediation of the bodega as cultural repository.",
+            "description": "Re-mediation of the bodega as cultural repository",
             "previewImage": "/img/bodega_t.jpg",
             "images": [
                 "/img/bod1.jpg",
                 "/img/bod2.jpg",
                 "/img/bod3.jpg",
                 "/img/bod4.jpg"
-            ],
-            "content": "Description"
+            ]
         },
         {
             "title": "Togethotel",
-            "description": "Mixed-Use short-term/long-term student housing project for Moab, Utah.",
+            "description": "Mixed-Use short-term/long-term student housing project for Moab, Utah",
             "previewImage": "/img/togethotel_t.jpg",
             "images": [
-
+                "/img/tog1.jpg",
+                "/img/tog2.jpg",
+                "/img/tog3.jpg",
+                "/img/tog4.jpg"
             ]
         },
         {
             "title": "Deep Mapping",
-            "description": "Inquiry-led, ethnographic exploration of the town of Moab, Utah.",
+            "description": "Inquiry-led, ethnographic exploration of the town of Moab, Utah",
             "previewImage": "/img/deep_t.jpg",
             "images": [
-
+                "/img/deep1.jpg",
+                "/img/deep2.jpg",
+                "/img/deep3.jpg",
+                "/img/deep4.jpg"
             ]
         },
         {
             "title": "Inquiry into Topology Optimization",
-            "description": "An optimization-guided approach towards a structurally optimal skateboard truck prototype.",
+            "description": "An approach towards a structurally optimal skateboard truck prototype",
             "previewImage": "/img/HERO2.jpg",
             "images": [
-
+                "/img/top1.jpg",
+                "/img/top2.jpg",
+                "/img/top3.jpg",
+                "/img/top4.jpg"
             ]
         },
         {
@@ -67,7 +75,10 @@
             "description": "Computational Form-Finding and Digital Fabrication",
             "previewImage": "/img/airport_t.jpg",
             "images": [
-
+                "/img/air1.jpg",
+                "/img/air2.jpg",
+                "/img/air3.jpg",
+                "/img/air4.jpg"
             ]
         }
     ]
