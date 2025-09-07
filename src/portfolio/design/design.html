@@ -10,11 +10,6 @@ title: "Design"
             {% if project.previewImage %}
                 <img src="{{project.previewImage}}">
             {% endif %}
-            {% if project.images %}
-                {% for image in project.images %}
-                    <img src="{{image}}">
-                {% endfor %}
-            {% endif %}
         </div> 
     </a>
 {% endfor %}

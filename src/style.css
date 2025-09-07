@@ -172,22 +172,24 @@ footer {
 }
 
 .project-link {
+    box-shadow: none;
     text-decoration: none;
     color: inherit;
+    transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
     display: block;
     transform-style: preserve-3d;
 }
 
 .project-link:hover  {
-    transition: transform 0.6s ease-out;
     transform: translateY(-5px);
 }
 
-.project-link:hover .project {
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+.project-link .project {
+    box-shadow: none;
+    transition: transform 0.3s ease-out;
 }
 
-.project-link .project {
-    transition: transform 0.1s ease-out;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+.project-link:hover .project {
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
 }
