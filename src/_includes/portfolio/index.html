@@ -9,5 +9,10 @@ title: "Test"
     {% if project.image %}
         <img src="{{project.image}}">
     {% endif %}
+    {% if project.images %}
+        {% for image in project.images %}
+            <img src="{{project.image}}">
+        {% endfor %}
+    {% endif %}
 </div>
 {% endfor %}
